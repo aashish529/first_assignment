@@ -72,11 +72,14 @@
 
         <form action="#">
             <label for="Name">Name</label>
-            <input type="text"><br>
+            <input type="text" id="Name" name="Name" required><br><br>
+            
             <label for="phoneno">Phone Number</label>
-            <input type="text"><br>
+            <input type="tel" id="phoneno" name="phoneno" pattern="[0-9]{10}" title="Please enter a valid 10-digit number" required><br><br>
+            
             <label for="services">Services</label>
-            <input type="text"><br>
+            <input type="text" id="services" name="services" required><br><br>
+            
             <input type="submit" value="Submit">
         </form>
 
